@@ -1,3 +1,4 @@
 rootProject.name = 'fullstack'
 include 'backend'
+include 'frontend'
 
