@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Webpack & Angular</title>
 </head>
-<body ng-app="app">
+<body ng-app="app" class="ng-cloak">
+<lumx-navbar></lumx-navbar>
 <p>Angular is working: {{1 + 1 === 2 }}</p>
+<p class="fs-headline">Icon Test: <i class="mdi mdi-twitter"></i> @Sh_McK</p>
 <script src="bundle.js"></script>
 </body>
 </html>
